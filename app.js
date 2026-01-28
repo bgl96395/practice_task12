@@ -18,7 +18,6 @@ app.get("/",(req,res)=>{
                 <h3>
                     <a href="/health">/api/products</a><br>
                 </h3>
-                <h3>New message</h3>
             </body>
         </html>
         `)
