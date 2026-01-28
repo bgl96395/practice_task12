@@ -23,13 +23,6 @@ app.get("/",(req,res)=>{
         `)
 })
 
-app.get("/version",(req,res)=>{
-    res.json({
-        version:"1.1",
-        updateAt:"2026-1-28"
-    })
-})
-
 app.get("/health",(req,res)=>{
     res.json({
         status:"OK"
